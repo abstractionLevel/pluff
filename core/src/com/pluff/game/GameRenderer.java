@@ -454,7 +454,6 @@ public class GameRenderer implements Screen {
                 }
                 /////matttone 1
                 if((contact.getFixtureA().getBody().getUserData()=="mattone1"&& contact.getFixtureB().getBody().getUserData()=="sinistro")) {
-
                     bodyMaatone1.setLinearVelocity(+0.70f,0);
                 }
                 if((contact.getFixtureA().getBody().getUserData()=="mattone1"&& contact.getFixtureB().getBody().getUserData()=="destro")) {

@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29db769c-708b-4322-9434-1f386c5d8591" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/dead.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/flap.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/gallina.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/gameover4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/jump.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/jump2.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/nuvola1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/pluff 3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/pluff.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/pluff2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/retry.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/shadow.fnt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/terra2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/text.fnt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/text.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/uovo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/uovo3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/victory.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/victory3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/whitetext.fnt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/whitetext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/ic_launcher-web.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/libs/tween-engine-api-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/libs/tween-engine-api.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/proguard-project.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/pluff/game/android/AndroidLauncher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/pluff/game/GameRenderer.java" afterPath="$PROJECT_DIR$/core/src/com/pluff/game/GameRenderer.java" />
+      <change beforePath="$PROJECT_DIR$/desktop/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/pluff/game/desktop/DesktopLauncher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/allclasses-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/allclasses-noframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AbstractAdListener.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/Ad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdChoicesView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdError.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdListener.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdSettings.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdSize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/AdView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/ImpressionListener.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/InterstitialAd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/InterstitialAdActivity.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/InterstitialAdListener.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/MediaView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAd.Image.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAd.MediaCacheFlag.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAd.Rating.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdScrollView.AdViewProvider.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdScrollView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdView.Type.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdViewAttributes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdsManager.Listener.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/NativeAdsManager.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/com/facebook/ads/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/constant-values.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/deprecated-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/help-doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/index-all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/overview-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/package-list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/resources/background.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/resources/tab.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/resources/titlebar.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/resources/titlebar_end.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/docs/javadoc/stylesheet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/libs/AudienceNetwork.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/androidTest/java/com/facebook/samples/AdUnitsSample/ApplicationTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/java/com/facebook/samples/AdUnitsSample/AdUnitsSampleActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/java/com/facebook/samples/AdUnitsSample/BannerFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/java/com/facebook/samples/AdUnitsSample/InterstitialFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/java/com/facebook/samples/AdUnitsSample/RectangleFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/java/com/facebook/samples/AdUnitsSample/TabsViewPagerAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/layout/activity_ad_sample.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/layout/fragment_banner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/layout/fragment_interstitial.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/layout/fragment_rectangle.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/values-large/layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/values-sw600dp/layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/values/layouts.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/AdUnitsSample/src/main/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/AudienceNetwork/samples/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/NOTICE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/README.mdown" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_button_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_button_send_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/messenger_bubble_large_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/messenger_bubble_large_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/messenger_bubble_small_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/messenger_bubble_small_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-hdpi/messenger_button_send_round_shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_button_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_button_send_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_portrait.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_square.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/messenger_bubble_large_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/messenger_bubble_large_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/messenger_bubble_small_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/messenger_bubble_small_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-mdpi/messenger_button_send_round_shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_button_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_button_send_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_bottomnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_topnub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_xout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/messenger_bubble_large_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/messenger_bubble_large_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/messenger_bubble_small_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/messenger_bubble_small_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xhdpi/messenger_button_send_round_shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/com_facebook_button_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/com_facebook_button_send_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/messenger_bubble_large_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/messenger_bubble_large_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/messenger_bubble_small_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/messenger_bubble_small_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable-xxhdpi/messenger_button_send_round_shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/com_facebook_button_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/com_facebook_button_like_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/com_facebook_button_login_silver_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/com_facebook_button_send_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/messenger_button_blue_bg_round.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/messenger_button_blue_bg_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/messenger_button_white_bg_round.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/drawable/messenger_button_white_bg_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/com_facebook_activity_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/com_facebook_login_fragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/com_facebook_tooltip_bubble.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_blue_large.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_blue_round.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_blue_small.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_white_large.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_white_round.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/layout/messenger_button_send_white_small.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-af/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ar/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-bn/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-cs/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-da/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-de/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-el/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-es-rES/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-es/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-es/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-fi/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-fr/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-gu/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-he/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-hi/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-in/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-it/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-iw/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ja/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-kn/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ko/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ml/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-mr/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ms/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-nb/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-nl/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-pa/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-pl/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-pt-rPT/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-pt/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ru/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-sv/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-ta/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-te/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-th/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-tl/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-tr/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-vi/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-zh-rCN/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-zh-rHK/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values-zh-rTW/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values/attrs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values/messenger_button_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values/messenger_button_styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/AccessToken.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/AccessTokenCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/AccessTokenManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/AccessTokenSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/AccessTokenTracker.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/CallbackManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookAuthorizationException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookBroadcastReceiver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookButtonBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookCallback.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookContentProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookDialogException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookGraphResponseException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookOperationCanceledException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookRequestError.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookSdk.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookSdkNotInitializedException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookSdkVersion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/FacebookServiceException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/GraphRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/GraphRequestAsyncTask.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/GraphRequestBatch.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/GraphResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/HttpMethod.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/LegacyTokenHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/LoggingBehavior.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/Profile.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/ProfileCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/ProfileManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/ProfileTracker.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/ProgressNoopOutputStream.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/ProgressOutputStream.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/RequestOutputStream.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/RequestProgress.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/TestUserManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/appevents/AppEventsConstants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/appevents/AppEventsLogger.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/appevents/FacebookTimeSpentData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/applinks/AppLinkData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/applinks/FacebookAppLinkResolver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/AnalyticsEvents.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/AppCall.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/AppEventsLoggerUtility.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/AttributionIdentifiers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/BoltsMeasurementEventListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/BundleJSONConverter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/CallbackManagerImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/CollectionMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/DialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/DialogPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/FacebookDialogBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/FacebookDialogFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/FacebookRequestErrorClassification.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/FacebookWebFallbackDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/FileLruCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/GraphUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ImageDownloader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ImageRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ImageResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ImageResponseCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/JsonUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/Logger.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/LoginAuthorizationType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/Mutable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/NativeAppCallAttachmentStore.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/NativeProtocol.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/PermissionType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/PlatformServiceClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ProfileInformationCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/ServerProtocol.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/UrlRedirectCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/Utility.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/Validate.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/WebDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/WorkQueue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/internal/package-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/DefaultAudience.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/GetTokenClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/GetTokenLoginMethodHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/KatanaProxyLoginMethodHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginBehavior.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginLogger.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginMethodHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/LoginResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/StartActivityDelegate.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/WebViewLoginMethodHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/widget/LoginButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/widget/ProfilePictureView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/login/widget/ToolTipPopup.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/messenger/MessengerThreadParams.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/messenger/MessengerUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/messenger/ShareToMessengerParams.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/messenger/ShareToMessengerParamsBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/ShareApi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/ShareBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/Sharer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/AppInviteDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/GameRequestValidation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LegacyNativeDialogParameters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeActionController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeBoxCountView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/LikeStatusClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/MessageDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/NativeDialogParameters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/OpenGraphActionDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/OpenGraphJSONUtility.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/OpenGraphMessageDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/ResultProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/ShareConstants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/ShareContentValidation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/ShareDialogFeature.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/ShareInternalUtility.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/VideoUploader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/internal/WebDialogParameters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/AppGroupCreationContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/AppInviteContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/GameRequestContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareLinkContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareModelBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareOpenGraphAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareOpenGraphContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareOpenGraphObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareOpenGraphValueContainer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/SharePhoto.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/SharePhotoContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareVideo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/model/ShareVideoContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/AppInviteDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/CreateAppGroupDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/GameRequestDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/JoinAppGroupDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/LikeView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/MessageDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/SendButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/ShareButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/ShareButtonBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/facebook/src/com/facebook/share/widget/ShareDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/keystores/BUCK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/keystores/debug.keystore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/keystores/debug.keystore.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/BUCK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/proguard-project.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/drawable-hdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/drawable-mdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/drawable/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/src/com/facebook/samples/hellofacebook/HelloFacebookBroadcastReceiver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/HelloFacebookSample/src/com/facebook/samples/hellofacebook/HelloFacebookSampleActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/java/com/facebook/samples/messenger/send/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/java/com/facebook/samples/messenger/send/MessengerSendSampleApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/res/drawable-xhdpi/tree.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/res/layout/main_activity.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/MessengerSendSample/src/main/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/post_app_objects.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/proguard-project.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable-hdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable-mdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/app_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/fb_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/icon_border.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/left_paper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/left_rock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/left_scissors.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/profile_default_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/right_paper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/right_rock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/right_scissors.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/usersettings_facebook_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/drawable/usersettings_fragment_background_gradient.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/layout/content_fragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/layout/rps_fragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/layout/usersettings_fragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/CommonObjects.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/ContentFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/OpenGraphConsts.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/RpsFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/RpsGameUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/RPSSample/src/com/facebook/samples/rps/usersettings/UserSettingsFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/proguard-project.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-hdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-hdpi/picker_magnifier.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-hdpi/placeholder_image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-mdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-mdpi/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-mdpi/picker_magnifier.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-mdpi/placeholder_image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-xhdpi/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-xhdpi/picker_magnifier.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable-xhdpi/placeholder_image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/add_food.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/add_friends.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/add_location.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/add_photo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/button_border.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/button_text_color.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_button_check.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_button_check_off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_button_check_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_item_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_divider.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_focused.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_longpressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_section_header_background.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_selector_background_transition.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_list_selector_disabled.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_place_default_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_selector_top_button.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_top_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/picker_top_button.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/placeholder_image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/profile_default_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/title_bar_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/usersettings_facebook_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/drawable/usersettings_fragment_background_gradient.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout-land/selection.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/listitem.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_activity_circle_row.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_checkbox.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_friendpickerfragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_image.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_list_row.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_list_section_header.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_placepickerfragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_placepickerfragment_list_row.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_search_bar_layout.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_search_box.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_title_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/picker_title_bar_stub.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/pickers.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/selection.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/splash.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/title_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/layout/usersettings_fragment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values-hdpi/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values-ldpi/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values-mdpi/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values-xhdpi/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/attrs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/colors.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/drawables.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/BaseListElement.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/FullListView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/PickerActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/ScrumptiousApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/SelectionFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/SplashFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/FriendPickerFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/GraphObjectAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/GraphObjectCursor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/GraphObjectPagingLoader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/PickerFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/picker/PlacePickerFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/Scrumptious/src/com/facebook/scrumptious/usersettings/UserSettingsFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/proguard-project.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-hdpi/ic_action_discard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-hdpi/ic_action_settings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-hdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-mdpi/ic_action_discard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-mdpi/ic_action_settings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-mdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_discard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_settings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/drawable/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/layout/fragment_profile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/layout/list_item_user.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/layout/main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/menu/context_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/menu/options_profile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/ProfileFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/SettingsFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/Slot.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/UserInfo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/facebook-android-sdk-4.1.1/samples/SwitchUserSample/src/com/facebook/samples/switchuser/UserInfoCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/src/com/pluff/game/GdxDefinition.gwt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/src/com/pluff/game/GdxDefinitionSuperdev.gwt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/src/com/pluff/game/client/HtmlLauncher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/WEB-INF/tween-engine-api-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/WEB-INF/tween-engine-api.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/soundmanager2-jsmin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/soundmanager2-setup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/webapp/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/Info.plist.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-375w-667h@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-414w-736h@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-568h@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Icon-72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Icon-72@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Icon@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/robovm.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/robovm.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/src/com/pluff/game/IOSLauncher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/programmaED/edjournal-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pluff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pluff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pluff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pluff" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pluff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pluff" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29db769c-708b-4322-9434-1f386c5d8591" name="Default" comment="" />
+      <created>1649968979044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649968979044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Thumbs.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Pluff.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
